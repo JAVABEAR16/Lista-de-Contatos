@@ -51,6 +51,7 @@ while True:
             print(f"{Listagem_de_Contatos[indice]} | {Listagem_de_Números[indice]} | {Listagem_de_E_mail[indice]}")
         else:
             print("Contato não encontrado!")
+            continue
             
     elif Controle == 4:
         print(Listagem_de_Contatos)
@@ -65,6 +66,7 @@ while True:
             Listagem_de_E_mail[indice] = E_mail
         else:
             print("Contato não encontrado!")
+            continue
     
     elif Controle == 5:
         print(Listagem_de_Contatos)
@@ -77,6 +79,7 @@ while True:
             print("Contato excluido!")
         else:
             print("Contato não encontrado!")
+            continue
             
     elif Controle == 6:
         print()
